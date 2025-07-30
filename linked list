@@ -1,0 +1,27 @@
+Linked list 1.single linked list 2.double linked list 3. circular linked list
+node is divided into 2 parts 
+data and address
+nodes are created using constructor (__init__)-> these are used to create instance variables
+code to create node:-
+class Node:
+      def__init__(self,val):
+         self.data=val
+         self.address=None 
+array:- arr=list(map(int,input().split()))
+         createLinkedList(arr)
+code for linked list creation:-
+class Node:
+     def__init__(self,val):
+          self.data=val
+          self.next=None
+     def createLinkedList(arr):
+          head=None
+      for val in arr:
+           if(head==None):
+               head=Node(val)
+               temp=head
+           else:
+               temp.next=Node(val)
+               temp=temp.next
+arr=list(map(int,input().split()))
+createLinkedList(arr)
