@@ -1,0 +1,13 @@
+OOPS
+main pillars of OOPS are:-
+class,object,inheritance,polymorphism,encapsulation,abstraction
+class:- class is a blueprint of object
+object:- object is a instance of class
+instance:- it means memory allocation 
+object can be specified in 2 ways:- 1. Identifiable characteristic 2.using behaviour 
+polymorphism:-1*many forms is known as polymorphism 
+it is classified in 2 types:- 1.Methodoverloading 2.Methodoverriding
+encapsulation:-binding of data and method into single unit is known as encapsulation , we provide security by using accessing modifiers 
+1. public 2. protected(_) 3. private (__)
+data mangling:- to access the private properties we use the concept of data mangling 
+syntax to access private properties:- object._className__Methodname
