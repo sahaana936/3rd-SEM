@@ -1,0 +1,5 @@
+Recurssion:- Function calling itself untill it meets the base condition is known as recurssion
+return means go back to the funtion call 
+there are 2 types:- 
+funtion definition, function call 
+to execute function call it searches for function definition 
